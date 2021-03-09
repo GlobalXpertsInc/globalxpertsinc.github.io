@@ -2,7 +2,7 @@ title: GlobalXperts
 description: IT Services and Support
 
 logo:
-   path: \assets\img\global-experts-logo.png
+   path: "/assets/img/global-experts-logo.png"
    height: 60 #height in px, defaults to 52px
 
 
