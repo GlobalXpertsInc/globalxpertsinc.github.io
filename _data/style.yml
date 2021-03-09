@@ -7,7 +7,7 @@
 highlight: "#4089EB"
 
 #Image Customization
-header-image: "../img/header.png"
+header-image: "/assets/img/header.png"
 #contact-image: "../img/contact.png"
 
 #Font Awesome icon for portfolio grid when an item is hovered over
