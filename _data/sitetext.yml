@@ -1,0 +1,56 @@
+header:
+    title: Welcome to GlobalXperts
+    text: GlobalXperts is a network communications support organization with a business focus of providing end users and solutions providers, with support services based on industry best practices.
+    button:  About Us
+    buttonlink: "#solutions"
+
+services:
+    title: "Services"
+    text: ""
+    section: services
+    list:
+      - title: "Cloud & Data Center"
+        desc: "Incorporates configuration management, infrastructure automation, and analytics to build infrastructure that can adapt at the speed of business."
+        icon: fas fa-cloud #find more at https://fontawesome.com/icons
+      - title: "Security"
+        desc: "Properly managing your security infrastructure is critical to meeting the needs of a dynamic business environment and protecting your assets from the evolving threat landscape."
+        icon: fas fa-shield-alt
+      - title: "Unified Communications"
+        desc: "The business environment today can be characterized by persistent and sometimes aggressive global competition, accelerated go-to-market cycles, rapid rollout of information."
+        icon: fas fa-users
+
+portfolio:
+    title: "Customer Focus"
+    text: "The customers we support leverage the partnership they have with us as an extension of their professional services and managed services capabilities allowing them to extend their reach and mitigate risk. In addition, our unique best of breed approach has enabled our customers to enjoy substantial cost savings and quality of service delivered."
+    section: portfolio
+    closebutton: "Close Project"
+
+solutions:
+    section: solutions
+    list:
+        - title: "Network Support"
+          desc: "Nowadays virtually all forward looking companies have moved to or are planning to move to an IP-based network platform and use high speed internet on a daily basis."
+          url: "http://batechnology.in/global/network-consulting/"
+        - title: "Professional Services"
+          desc: "Our engineers can successfully manage projects of varying scope, from a small-scale software application to a large enterprise national rollout."
+          url: "http://batechnology.in/global/professional-services/"
+        - title: "Technology Capabilities"
+          desc: "GlobalXperts provides world wide implementation and on site support capabilities across multiple continents for its clients and partners."
+          url: "http://batechnology.in/global/key-products-and-partners/"
+
+
+partners:
+    section: partners
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "cisco"
+        logo: assets/img/partners/KEY-PARTNERS-1-150x90.jpg
+      - title: "amazon"
+        logo: assets/img/partners/KEY-PARTNERS-4-150x90.jpg
+      - title: "microsoft"
+        logo: assets/img/partners/KEY-PARTNERS-5-150x90.jpg
+      - title: "vmware"
+        logo: assets/img/partners/KEY-PARTNERS-7-150x90.jpg
+
+

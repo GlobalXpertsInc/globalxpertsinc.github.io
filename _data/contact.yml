@@ -1,0 +1,26 @@
+footer:
+    section: contact-footer
+    left:
+        title:
+        logo: \assets\img\global-experts-logo.png
+        text: GlobalXperts is a network communications support organization with a business focus of providing end users and solutions providers, with support services based on industry best practices.
+    middle:
+        title: Follow GlobalXperts
+        social:
+           - icon: "fab fa-twitter"
+             url: "https://twitter.com/globalxpertsinc"
+           - icon: "fab fa-linkedin-in"
+             url: "https://www.linkedin.com/company/globalxperts-inc-"
+        text:
+    right:
+        title: Contact Us
+        contact-info:
+            - type: address
+              icon: "fas fa-map-marker"
+              value: "5540 Centerview Drive Suite 200, Raleigh NC 27606"
+            - type: number
+              icon: "fas fa-phone-alt"
+              value: "919-342-5482"
+            - type: email
+              icon: "fas fa-envelope"
+              value: info@globalxperts.net

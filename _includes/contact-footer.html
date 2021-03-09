@@ -1,0 +1,49 @@
+<!-- Contact -->
+<section class="page-section" id="{{ site.data.contact.footer.section | default: "contact" }}">
+	<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+        <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
+				<div class="text-muted" style="font-size: 0.8rem;">
+					{{ site.data.contact.footer.left.text | markdownify }}
+				</div>
+		</div>
+
+		<!-- Social Media -->
+        <div class="col-md-4 text-center">
+					<div class="empty-space" style="height:20px; "></div>
+					<h5>{{ site.data.contact.footer.middle.title }}</h5>
+					<div class="empty-space" style="height:20px; "></div>
+          <ul class="list-inline social-buttons">
+		  {% for link in site.data.contact.footer.middle.social  %}
+            <li class="list-inline-item">
+			  {% if link.url %}
+              <a href="{{ link.url }}">
+                {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
+              </a>
+			  {% endif %}
+            </li>
+			{% endfor %}
+          </ul>
+        </div>
+
+		<div class="col-md-4">
+					<div class="empty-space" style="height:20px; "></div>
+					<h5>{{ site.data.contact.footer.right.title }}</h5>
+					<div class="empty-space" style="height:20px; "></div>
+			{% for info in site.data.contact.footer.right.contact-info %}
+      <div class="item">
+			   <div class="contact-info">
+					 <div class="text">
+				   <i class="{{ info.icon }}"></i>
+					 {{ info.value }}</div>
+					 </div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+	</div>
+</section>
+
+<!-- End Contact -->
+

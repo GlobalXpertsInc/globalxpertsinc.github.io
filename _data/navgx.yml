@@ -1,0 +1,44 @@
+nav:
+  - title: "Solutions"
+    dropdown:
+       - title: Blockchain
+         url: /solutions/blockchain
+       - title: Cloud and Data Center
+         url: /solutions/cloud-and-datacenter
+       - title: Devops and Rapid Application Development
+         url: /solutions/devops-and-rapid-application-development
+       - title: Security
+         url: /solutions/security
+       - title: Unified Communication and Collaboration
+         url: /solutions/unified-communication-and-collaboration
+
+
+  - title: "Services"
+    dropdown:
+       - title: Cloud and Data Center Migration
+         url: /services/cloud-and-data-center-migration
+       - title: Managed Network Operations
+         url: /services/managed-network-operations
+       - title: Network Consulting
+         url: /services/network-consulting
+       - title: Professional Services
+         url: /services/professional-services
+       - title: Staff Augmentation
+         url: /services/staff-augmentation
+       - title: Training
+         url: /services/training
+       - title: Asset & Inventory
+         url: /services/asset-and-inventory
+       - title: Field Engineering and Coverage
+         url: /services/field-engineering-and-coverage
+
+  - title: "Industries"
+    url: /industries
+
+  - title: "Company"
+    url: /company
+
+  - title: "Location"
+    section: location
+    mainsection: /#location
+

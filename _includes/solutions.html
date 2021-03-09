@@ -1,0 +1,25 @@
+<!-- Services -->
+<section class="page-section" id="{{ site.data.sitetext.solutions.section | default: "solutions" }}">
+    <div class="container-fluid">
+    <div class="row text-left">
+	  {% for solution in site.data.sitetext.solutions.list %}
+		{% assign idxmod = forloop.index | modulo:2 %}
+		    <div class="col-md-4{% if idxmod == 1 %} bg-light{% endif %}" style="padding-right: 50px; padding-left: 50px;">
+          <h4 class="service-heading">{{ solution.title | markdownify }}</h4>
+          {% if solution.desc %}<div class="text-muted" style="font-size: 0.8rem;">{{ solution.desc | markdownify }}</div>{% endif %}
+					<div class="empty_space" style="height:40px">
+						<span></span>
+					</div>
+					<div class="text-l"><a href="{{ solution.url }}" class="button_box-134312346060472720ba2f9 slz-btn "><span class="btn-text">READ MORE</span></a></div>
+					<div class="empty_space" style="height:30px">
+						<span></span>
+					</div>
+
+        </div>
+	  {% endfor %}
+      </div>
+    </div>
+</section>
+<!-- End Services -->
+
+

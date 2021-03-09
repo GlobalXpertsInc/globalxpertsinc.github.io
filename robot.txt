@@ -1,0 +1,4 @@
+---
+layout: null
+---
+Sitemap: {{ page.url | replace:'robot.txt','' | prepend: site.baseurl | prepend: site.url }}sitemap.xml

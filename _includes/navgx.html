@@ -1,0 +1,47 @@
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color:#3B5678">
+    <div class="container">
+	  <a class="navbar-brand js-scroll-trigger" href="/">
+          {%- if site.logo -%}
+            <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
+          {%- else -%}
+            {{ site.title }}
+          {%- endif -%}
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+		  {%- for link in site.data.navgx.nav -%}
+      {%- if link.dropdown -%}
+		  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+					{{ link.title }}
+				</a>
+				<ul class="dropdown-menu">
+			{%- for item in link.dropdown -%}
+		    <li><a class="dropdown-item" href="{{ item.url }}">{{ item.title }}</a></li>
+			{% endfor %}
+				</ul>
+		  {%- else -%}
+		  <li class="nav-item">
+		  {%- if link.url -%}
+		    <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
+		  {%- else if link.mainsection -%}
+		    <a class="nav-link js-scroll-trigger" href="{{ link.mainsection }}">{{ link.title }}</a>
+		  {%- else -%}
+		    <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
+		  {%- endif -%}
+		  {%- endif -%}
+
+          </li>
+		  {% endfor %}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navigation -->
+
