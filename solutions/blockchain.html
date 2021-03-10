@@ -1,0 +1,37 @@
+---
+layout: page
+permalink: /solutions/blockchain/
+---
+{% assign pgtxt = site.data.solutions.blockchain %}
+{% include pageheader.html title=pgtxt.title desc=pgtxt.desc header-image=pgtxt.header-image   %}
+
+
+<div class="container">
+	<div class="row">
+		<h2>{{ pgtxt.section-one.title }}</h2>
+	</div>
+
+	<div class="row">
+
+	{% for item in pgtxt.section-one.list %}
+	{% assign iseven = forloop.index | modulo:2 %}
+	{% if iseven != 0  %}
+	<div class="col-md">
+	{% endif %}
+	<h5>{{ item.title }}</h5>
+	{{ item.desc | markdownify }}
+	{% if iseven != 1  %}
+	</div>
+	{% endif %}
+	{% endfor %}
+
+	</div>
+</div>
+
+
+<div class="container">
+<h2>{{ pgtxt.section-two.title }}</h2>
+{{ pgtxt.section-two.body | markdownify }}
+</div>
+
+

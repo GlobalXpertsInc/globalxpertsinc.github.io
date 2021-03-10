@@ -3,5 +3,15 @@ layout: default
 ---
 {% include navgx.html %}
 
+{% if page.background == "grey" or page.background == "gray" %}
+<script>
+document.getElementById("page-top").className="bg-light";
+</script>
+{% endif %}
+
+
+<div class="empty_space" style="height:70px;"></div>
 
 {{ content }}
+
+{% include contact-footer.html %}

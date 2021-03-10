@@ -2,4 +2,21 @@
 layout: page
 permalink: /solutions/devops-and-rapid-application-development
 ---
+{% assign pgtxt = site.data.solutions.devops-and-rapid-application-development %}
+{% include pageheader.html title=pgtxt.title desc=pgtxt.desc header-image=pgtxt.header-image   %}
+
+
+<div class="container">
+	<div class="row">
+	<h2>{{ pgtxt.section-one.title }}</h2>
+	</div>
+	<div class="row">
+		<div class="col">
+			{{ pgtxt.section-one.body | markdownify }}
+		</div>
+		<div class="col" style="width: 30%">
+			<img src="{{ pgtxt.section-one.image }}" class="img-fluid">
+		</div>
+	</div>
+</div>
 

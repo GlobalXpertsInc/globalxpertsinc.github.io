@@ -2,4 +2,21 @@
 layout: page
 permalink: /solutions/cloud-and-datacenter
 ---
+{% assign pgtxt = site.data.solutions.cloud-and-datacenter %}
+{% include pageheader.html title=pgtxt.title desc=pgtxt.desc header-image=pgtxt.header-image   %}
 
+
+<div class="container">
+	<h2>{{ pgtxt.section-one.title }}</h2>
+{{ pgtxt.section-one.body | markdownify }}
+</div>
+
+<div class="container">
+	<h2>{{ pgtxt.section-two.title }}</h2>
+{{ pgtxt.section-two.body | markdownify }}
+</div>
+
+<div class="container">
+	<h2>{{ pgtxt.section-two.title }}</h2>
+{{ pgtxt.section-three.body | markdownify }}
+</div>
