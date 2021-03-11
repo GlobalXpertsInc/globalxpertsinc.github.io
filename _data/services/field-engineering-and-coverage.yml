@@ -1,0 +1,77 @@
+title: Services & Coverage
+desc: Our field engineering services are available worldwide
+header-image: /assets/img/services/Services-Coverage-1200x500.jpg
+section-list:
+        - title: Field Engineering Practice
+          body: |+
+                GlobalXperts, an Information Technology Solutions Provider specializing in Collaboration and Data Center solutions has a deep understanding of networking enterprises and cloud technologies that incorporate Collaboration, Data Center, Security solutions and products from leading equipment manufacturers.
+
+                Our onsite engineering and support services utilize Agile processes to maximize performance and deliver field services to some of the largest enterprises and OEM’s worldwide.
+        - title: Network Support Services
+          body: |+
+                ### Equipment Installation
+
+                On-site hardware unpacking, assembling and product inspection. Defective or broken equipment is reported if required. Product or system is installed in the client’s equipment room if required, and wiring/cables are connected.
+
+                ### Device configuration
+
+                We upload, check, or create configurations based on supplied data. We can tailor network solutions to your needs including upgrading firmware.
+
+                ### Troubleshooting
+
+                GlobalXperts engineers can mobilize quickly to access your site in the shortest time possible to repair defective devices and work through SIP, T1, ISDN network/internet line trouble issues with local ISPs.
+
+                ### Acceptance testing
+
+                After installation, our technical resource will perform a system test which includes connectivity testing, inspection of installed hardware, pictures of the rack and documentation of all devices delivered. An acceptance report is then signed by the customer and the responsible GlobalXperts resource.
+section-three:
+        list:
+          - title: Break-Fix Services
+            icon: /assets/img/services/Service-Provider.png
+            body: |+
+                - On-site support to 100 countries & 500 sites
+                - Services-Surveys, break-fix to site turn-up
+                - Physical and logical security
+                - Operates 24x7x365
+                - Backup NOC and power
+                - Secure VPN from NOC to client
+          - title: Coverage
+            icon: /assets/img/services/Break-Fix-Services.png
+            body: |+
+                - GlobalXperts field engineering services are available worldwide
+                - Our field team can mobilize quickly to provide coverage when the customer needs it.
+                - We can cover some of the most difficult places on the globe with skilled engineers on-demand
+
+section-four:
+        list:
+          - title: COUNTRIES
+            id: country
+            text: Global Presence in over 125 Countries!
+            number: 100
+          - title: CITIES
+            id: cities
+            text: Presence in over 650 cities worldwide!
+            number: 500
+          - title: SERVICE DESK
+            id: service-desk
+            text: Service Desk support 24/7 365 days a year!
+            number: 24
+            append: /7
+          - title: RESPONSE TIME
+            id: response-time
+            text: Response times as low as 2 hours!
+            number: 4
+            append: hr
+          - title: RESOURCES
+            id: resources
+            text: Access to over 3,000 certified and trained technicians!
+            number: 3000
+            append: +
+
+
+
+
+
+
+
+

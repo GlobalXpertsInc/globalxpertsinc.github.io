@@ -2,4 +2,121 @@
 layout: page
 permalink: /services/training
 ---
+{% assign pgtxt = site.data.services.training %}
+{% include pageheader.html title=pgtxt.title desc=pgtxt.desc header-image=pgtxt.header-image   %}
 
+
+<div class="container">
+	<h2>{{ pgtxt.section-one.title }}</h2>
+			{{ pgtxt.section-one.body | markdownify }}
+</div>
+
+
+{% assign imglist = pgtxt.section-two.list %}
+<div class="container">
+
+<div class="row text-center">
+	<div class="col">
+		<img class="img-fluid" src="{{ imglist[0].img }}">
+		<div class="text"><b>{{ imglist[0].title }}</b></div>
+			<div class="empty_space" style="height:10px"><span></span></div>
+			<div class="text-l"><a href="#{{ imglist[0].section }}" class="button_box-134312346060472720ba2f9 slz-btn "><span class="btn-text">READ MORE</span></a></div>
+			<div class="empty_space" style="height:10px"><span></span></div>
+	</div>
+</div>
+
+<div class="row text-center">
+	<div class="col">
+		<img class="img-fluid" src="{{ imglist[1].img }}">
+		<div class="text"><b>{{ imglist[1].title }}</b></div>
+		<div class="text">{{ imglist[1].text }}</div>
+			<div class="empty_space" style="height:10px"><span></span></div>
+			<div class="text-l"><a href="#{{ imglist[1].section }}" class="button_box-134312346060472720ba2f9 slz-btn "><span class="btn-text">READ MORE</span></a></div>
+			<div class="empty_space" style="height:10px"><span></span></div>
+	</div>
+	<div class="col">
+		<img class="img-fluid" src="{{ imglist[2].img }}">
+		<div class="text"><b>{{ imglist[2].title }}</b></div>
+		<div class="text">{{ imglist[2].text }}</div>
+			<div class="empty_space" style="height:10px"><span></span></div>
+			<div class="text-l"><a href="#{{ imglist[2].section }}" class="button_box-134312346060472720ba2f9 slz-btn "><span class="btn-text">READ MORE</span></a></div>
+			<div class="empty_space" style="height:10px"><span></span></div>
+	</div>
+</div>
+
+<div class="row text-center">
+	<div class="col">
+		<img class="img-fluid" src="{{ imglist[3].img }}">
+		<div class="text"><b>{{ imglist[3].title }}</b></div>
+		<div class="text">{{ imglist[3].text }}</div>
+			<div class="empty_space" style="height:10px"><span></span></div>
+			<div class="text-l"><a href="#{{ imglist[3].section }}" class="button_box-134312346060472720ba2f9 slz-btn "><span class="btn-text">READ MORE</span></a></div>
+			<div class="empty_space" style="height:10px"><span></span></div>
+	</div>
+</div>
+
+</div>
+
+
+<div class="container" id="{{ pgtxt.section-three.section }}">
+	<h2>{{ pgtxt.section-three.title }}</h2>
+			{{ pgtxt.section-three.body | markdownify }}
+</div>
+<div class="container" id="{{ pgtxt.section-four.section }}">
+	<h2>{{ pgtxt.section-four.title }}</h2>
+			{{ pgtxt.section-four.body | markdownify }}
+</div>
+<div class="container" id="{{ pgtxt.section-five.section }}">
+	<h2>{{ pgtxt.section-five.title }}</h2>
+			{{ pgtxt.section-five.body | markdownify }}
+</div>
+
+
+<div class="container">
+	<h2>{{ pgtxt.section-six.title }}</h2>
+			<div class="container">
+				<div class="row text-center">
+			{% for item in pgtxt.section-six.icon-list %}
+				<div class="col">
+					<img class="img-fluid" src="{{ item.icon }}">
+				</div>
+			{% endfor %}
+				</div>
+			</div>
+</div>
+
+
+<div class="empty_space" style="height:30px"><span></span></div>
+<div class="container" id="{{ pgtxt.section-seven.section }}">
+	<div class="row text-center">
+	<h2>{{ pgtxt.section-seven.title }}</h2>
+	</div>
+<div class="row text-center">
+	{% for item in pgtxt.section-seven.list %}
+	<div class="col-sm">
+		<img class="img-fluid" src="{{ item.image }}">
+		<div class="fs-7">
+		  {{ item.text }}
+		</div>
+	</div>
+	{% endfor %}
+</div>
+</div>
+
+<div class="empty_space" style="height:30px"><span></span></div>
+<div class="container">
+	<div class="row text-center">
+		<div class="text">
+	<h2>{{ pgtxt.section-eight.title }}</h2>
+		</div>
+	</div>
+<div class="row text-center">
+	{% for item in pgtxt.section-eight.list %}
+	<div class="col-sm">
+		<a href="{{ item.link }}">
+		<img class="img-fluid" src="{{ item.image }}">
+		</a>
+	</div>
+	{% endfor %}
+</div>
+</div>

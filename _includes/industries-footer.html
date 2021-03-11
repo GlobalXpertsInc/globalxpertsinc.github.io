@@ -1,0 +1,33 @@
+
+{% assign pgtxt = site.data.industries.footer-images %}
+
+<div class="container">
+ <div class="row text-center">
+	 <div class="col">
+	 <h5>Solutions</h5>
+	 </div>
+ </div>
+ <div class="row text-center">
+	 {% for item in pgtxt.solutions %}
+		<div class="col">
+			<img class="img-fluid" src="{{ item.image }}" width="65" height="65">
+			<p>{{ item.title }}</p>
+		</div>
+	 {% endfor %}
+ </div>
+</div>
+<div class="container">
+ <div class="row text-center">
+	 <div class="col">
+	 <h5>Services</h5>
+	 </div>
+ </div>
+ <div class="row text-center">
+	 {% for item in pgtxt.services %}
+		<div class="col">
+			<img class="img-fluid" src="{{ item.image }}" width="65" height="65">
+			<p>{{ item.title }}</p>
+		</div>
+	 {% endfor %}
+ </div>
+</div>

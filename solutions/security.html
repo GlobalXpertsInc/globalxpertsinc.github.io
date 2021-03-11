@@ -2,4 +2,27 @@
 layout: page
 permalink: /solutions/security
 ---
+{% assign pgtxt = site.data.solutions.security %}
+{% include pageheader.html title=pgtxt.title desc=pgtxt.desc header-image=pgtxt.header-image   %}
 
+
+<div class="container">
+	<h2>{{ pgtxt.section-one.title }}</h2>
+			{{ pgtxt.section-one.body | markdownify }}
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col">
+			{{ pgtxt.section-two.body | markdownify }}
+		</div>
+		<div class="col" style="width: 30%">
+			<img src="{{ pgtxt.section-two.image }}" class="img-fluid">
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<h2>{{ pgtxt.section-three.title }}</h2>
+			{{ pgtxt.section-three.body | markdownify }}
+</div>

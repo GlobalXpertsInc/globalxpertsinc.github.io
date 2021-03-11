@@ -1,0 +1,12 @@
+---
+layout: page
+permalink: /company/strategic-partners
+---
+{% assign pgtxt = site.data.company.strategic-partners %}
+{% include pageheader.html title=pgtxt.title desc=pgtxt.desc header-image=pgtxt.header-image   %}
+
+<div class="container">
+	<h2>{{ pgtxt.section-one.title }}</h2>
+			{{ pgtxt.section-one.body | markdownify }}
+</div>
+

@@ -2,4 +2,37 @@
 layout: page
 permalink: /solutions/unified-communication-and-collaboration
 ---
+{% assign pgtxt = site.data.solutions.unified-communication-and-collaboration %}
+{% include pageheader.html title=pgtxt.title desc=pgtxt.desc header-image=pgtxt.header-image   %}
 
+
+<div class="container">
+	<h2>{{ pgtxt.section-one.title }}</h2>
+			{{ pgtxt.section-one.body | markdownify }}
+</div>
+
+<div class="container">
+	<div class="row text-center">
+		{% for icon in pgtxt.section-two.list %}
+		<div class="col">
+			<img src="{{ icon.image }}" class="img-fluid">
+			<h5>{{ icon.title }}</h5>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
+<div class="container">
+	<h2>{{ pgtxt.section-three.title }}</h2>
+			{{ pgtxt.section-three.body | markdownify }}
+</div>
+
+<div class="container">
+	<h2>{{ pgtxt.section-four.title }}</h2>
+			{{ pgtxt.section-four.body | markdownify }}
+</div>
+
+<div class="container">
+	<h2>{{ pgtxt.section-five.title }}</h2>
+			{{ pgtxt.section-five.body | markdownify }}
+</div>

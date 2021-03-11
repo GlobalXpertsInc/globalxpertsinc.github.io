@@ -1,0 +1,25 @@
+title: Cloud and Data Center Migration
+desc: Let us help you with your Cloud needs
+header-image: /assets/img/services/Cloud-and-data-center-migration-1200x300.jpg
+section-list:
+        - title: Assisting in the designing, migration, security, operation, and the continuous optimization of infrastructure leveraging cloud technologies
+          body: |+
+                Cloud Management platform – offers quick ROI, seamless cloud cost management, comprehensive cloud security, advanced cloud automation, and smart migration services featuring **99.99% up-time**. Cloud computing enables scalable, on demand and **pay-per-use IT infrastructure**, eliminating the barriers of space and time.
+        - title: Cloud Migration and Strategy
+          body: |+
+                - **Cloud Strategy:** Unite key stakeholders and understand the key elements of cloud adoption.
+                - **Cloud Planning:** Create a step-by-step action plan for migrating to the cloud.
+                - **Cloud Migration:** Applications and data are securely migrated to the new target environment.
+                - **Cloud optimization:** Improve the reliability, security, and ROI of your cloud environment.
+                - **Cloud 24/7 Support:** GlobalXperts will provide end to end day 2 support.
+        - title: Migration Services
+          body: |+
+                A successful AWS migration requires actionable, **error-free**, and detailed analysis of the current environment with a proper migration plan in place.
+
+                With GlobalXperts Migration Services, migration of your data center or applications to the AWS cloud is a breeze. Plus, it reduces migration **costs** and **risks** associated with the migration.
+        - title: The approach
+          body: |+
+                - **DISCOVERY:** GlobalXperts first identifies the inventory of current applications and their usage along with their platforms and license dependencies. We also identify the SLA’s, security, and compliance of various business applications.
+                - **ANALYSIS:** By using industry best practices and the information gathered in the discovery phase, GlobalXperts cloud architects work with you to design the cloud architecture model to be deployed on the cloud.
+                - **MIGRATION:** All the major layers of the system requirements, such as DNS, load balancers, web, application layers, database, storage, security, internal/external integrations, monitoring, backup, deployment, and background programs are migrated to cloud.
+                - **VALIDATION:** We ensure that the systems have been migrated without loss of fidelity in functional and non-functional requirements.

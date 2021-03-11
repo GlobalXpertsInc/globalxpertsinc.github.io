@@ -1,0 +1,12 @@
+---
+layout: page
+permalink: /company/contact-us
+---
+{% assign pgtxt = site.data.company.contact-us %}
+{% include pageheader.html title=pgtxt.title desc=pgtxt.desc header-image=pgtxt.header-image   %}
+
+<div class="container">
+	<h2>{{ pgtxt.section-one.title }}</h2>
+			{{ pgtxt.section-one.body | markdownify }}
+</div>
+

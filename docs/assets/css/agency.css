@@ -153,6 +153,8 @@ ul.social-buttons { margin-bottom: 0; }
 ul.social-buttons li a { font-size: 20px; line-height: 50px; display: block; width: 50px; height: 50px; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; color: white; border-radius: 100%; outline: none; background-color: #212529; }
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover { background-color: #4089EB; }
 
+.counter-number { font: 800 40px sans-serif; color: #0066bf; }
+
 /*======================================
 =            8. BTN BACK TO TOP        =
 =======================================*/

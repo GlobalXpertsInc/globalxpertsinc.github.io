@@ -1,0 +1,13 @@
+---
+layout: page
+permalink: /industries/energy
+---
+{% assign pgtxt = site.data.industries.energy %}
+{% include pageheader.html title=pgtxt.title desc=pgtxt.desc header-image=pgtxt.header-image   %}
+
+<div class="container">
+	<h2>{{ pgtxt.title }}</h2>
+			{{ pgtxt.body | markdownify }}
+</div>
+
+{% include industries-footer.html %}

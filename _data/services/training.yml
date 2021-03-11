@@ -1,0 +1,114 @@
+title: Training
+desc: GlobalXperts. Inc. provides end-to-end services, including learning needs assessment, strategic curriculum consulting, course development, deployment and implementation consulting, and performance measurement.
+header-image: /assets/img/services/Services-Coverage-1200x500.jpg
+section-one:
+        title: Enhance the way students study and experience Science, Technology, Engineering, and Math (STEM)
+        body: |+
+                GlobalXperts, Inc. is a company founded by a thirty-year work experienced Network Implementation Engineer. The staff is comprised of individuals who both earned a Master of engineering Degree from North Carolina Agricultural and Technical University. We represent the face of the underserved community where we have dedicated out time to expose the youth to technology applications help them enhance their critical thinking, imagination and innovation along with developing their verbal and written communication skills.
+
+                Our mission is to inspire students with their critical thinking by providing “real life” experiences that challenge them to learn and apply new skills. Students realize the value of essential STEM skills through robotics competitions. FIRST (For Inspiration and Recognition of Science and Technology) has a comprehensive offering of robotics competitions covering K-12. The **Lego Robotics** program not only enhances the participants’ math concepts but helps develop soft skills as well.
+
+                Our long-term vision is for urban and rural schools to offer robotics as an elective course to the student population continue to form collegiate partnerships, and corporate partnerships to work on real-life robotic projects (not to mention the STEM, leadership and confidence building components). **Mindstorm**(Lego Robotics) is proving to be a great alternate learning experience for at risk students as well as the students who perform well in school.
+
+                GlobalXperts, Inc. has strategic relationships with **Give N Go NPO** and **OneVibe** to bring STEM Programs to our communities as well as to enhance our communities experience and skill sets.
+section-two:
+        list:
+          - title: E-Learning Consulting
+            img: /assets/img/services/UC-Collab.png
+            section: elearning
+          - title: S.T.E.M Program
+            text: Students will be exposed to STEM concepts through robotics…
+            img: /assets/img/services/Icon-1d.png
+            section: stem
+          - title: Internetworking Engineer Training
+            text: CCENT, CCNA, CCT Data Center…
+            img: /assets/img/services/Icon-1b.png
+            section: internetworking
+          - title: 21st Century Workshops
+            text: Learn more about the workshops we offer…
+            img: /assets/img/services/Icon-1c.png
+            section: workshops
+section-three:
+        title: S.T.E.M. Program
+        section: stem
+        body: |+
+                This project will develop robotics awareness for middle/high school students. Underserved and minority students will be exposed to Science, Technology, Engineering and Mathematics (STEM) concepts through robotics. They will also be provided information and opportunities to further explore STEM concepts throughout high school and college. The target low-income communities have established informal education environments for youth in grades K-12, but in most instances, lack the programming to expose youth to STEM opportunities. Expanding on the current afterschool program implementation model will provide these opportunities. Students and instructors will develop their robotics skills through the use of:
+
+                - Well-established school-year curriculum
+                - Summer enrichment component and,
+                - Virtual face-to-face meetings with professionals in several cutting-edge technology industries
+
+                Robotics represents an interdisciplinary topic that combines the diverse areas of technology, computer science, engineering, and the sciences. Robotics offers the opportunity to expose students to the versatile nature of STEM and can thus be used in a variety of classrooms and in after school programs as a tool to increase student exposure, motivation and learning in STEM. The use of practical, hands -on applications of mathematical and scientific concepts across various engineering topics will help students to link scientific concepts with technology, problem solving, and design, and to apply their classroom lessons to real-life problems (Rockland et al., 2010).
+section-four:
+        title: E-Learning Consultation
+        section: elearning
+        body: |+
+                E-learning provides flexible learning on demand. It can support learning communities where participants’ complete assignments **independently, interact with experts, and converse with other learners in real or asynchronous time**. This kind of education is learner-centered and designed to meet the training needs of the Information Age workforce.
+
+                GlobalXperts, Inc. consultants bring years of expertise in organizational development, the psychology of learning, and customized instructional design. We harness this expertise to design and produce benchmark e-learning solutions.
+
+                GlobalXperts. Inc. provides end-to-end services, including learning needs assessment, strategic curriculum consulting, course development, deployment and implementation consulting, and performance measurement. Our Consulting services utilize multimedia, interactive courseware, on-line dialog and collaboration, and face-to-face, on-site, expert-led classroom work. Asymmetry can provide clients with customized, web-based training solutions that meet the high expectations of today’s employee base.
+section-five:
+        title: Internetworking Engineer Training
+        section: internetworking
+        body: |+
+                **Cisco Certified Entry Networking Technician (CCENT)** [routing/switching, security] validates the ability to install, operate and troubleshoot a small enterprise branch network, including basic network security. With a CCENT, professional demonstrates the skills required for entry-level network support positions – the starting point for many successful careers in networking. The curriculum covers networking fundamentals, WAN technologies, basic security and wireless concepts, routing and switching fundamentals, and configuring simple networks.
+
+                **Cisco Certified Network Associate (CCNA)** [routing/switching, security] validates the ability to install, configure, operate, and troubleshoot medium-size route and switched networks, including implantation and verification of connections to remote sites in a WAN. CCNA curriculum includes basic mitigation of security threats, introduction to wireless networking concepts and terminology, and performance-based skills. This new curriculum also includes, but not limited to, the use of these protocols:
+
+                - IP
+                - Enhanced Interior Gateway Routing Protocol (EIGRP)
+                - Serial Line Interface Protocol Frame Relay
+                - Routing Information Protocol Version 2 (RIPv2)
+                - VLANs
+                - Ethernet
+                - Access Control Lists (ACLs)
+
+
+                **Data Center Certification (CCT)** focuses on the skills required for onsite support and maintenance of Cisco Unified Computing Systems and servers. Technicians in this area must be able to identify Cisco Unified Computing System components and servers, accessories, cabling and interfaces; understand the Cisco UCS and NX-OS operating modes and identify commonly-found software; and be able to use the Cisco Graphical User Interface to connect and service product components. Achieving CCT in Data Center requires achieving a CCT in Routing & Switching first.
+
+                **Front End Engineering** focuses on creating experiences in web browsers that users see and interact with. The discipline covers a broad area, from web design principles to complex JavaScript applications that manage data. In this course the participant will learn how to build beautiful interactive and responsive websites.
+
+                **Back End Engineering** focuses on the logic and database needs required to run and scale web applications. Back End products combine databases, APIs, and user interface frameworks. Backend developers deploy fully formed products to the cloud, integrate with online services, and enable mobile and front-end applications. In this course, the participant will demystify what goes on behind the scenes on a web server.
+
+                **Mobile Engineering** focuses on creating native experiences designed specifically for mobile operating systems and the hardware they run on. Mobile developers create tactile apps that leverage internet connectivity, content capture functionality and hardware-specific features. In this course, students will learn to design and develop mobile apps for iPhone and Android.
+section-six:
+        title: Languages taught by us that employers are looking for
+        icon-list:
+          - icon: /assets/img/services/Java-Script-100x100.png
+          - icon: /assets/img/services/Java-100x100.png
+          - icon: /assets/img/services/Logo-100x100.png
+          - icon: /assets/img/services/Mircosoft-Logo-100x100.png
+          - icon: /assets/img/services/ocbj-100x100.png
+          - icon: /assets/img/services/php-100x100.png
+          - icon: /assets/img/services/Rails-100x100.png
+section-seven:
+        title: 21st Century Workshops
+        section: workshops
+        list:
+         - text: An introduction to public speaking. Improve your presentation skills with quick and easy to implement techniques.
+           image: /assets/img/services/Personal-Branding.png
+         - text: You need to create career-marketing tools that will make the true you shine and leave them wanting more. It all starts with building your personal brand.
+           image: /assets/img/services/Presentational-Skills.png
+         - text: This boot camp introduces students to the current social media landscape and explores how it can be used for maximum…. This workshop is for beginners.
+           image: /assets/img/services/Social-Media.png
+         - text: What is the difference between your LinkedIn profile and your resume? Resume Shoppe offers some insight as to how to distinguish yourself off and online.
+           image: /assets/img/services/Resume-vs.-LinkedIn.png
+         - text: The age of Internet ubiquity has arrived. The world is moving beyond standalone devices into new era where everything is connected.
+           image: /assets/img/services/Internet-of-Everything.png
+
+section-eight:
+        title: Microsoft Courses Offered
+        list:
+          - link: https://www.microsoft.com/en-in/learning/exchange-server-training.aspx
+            image: /assets/img/services/e-logo.png
+          - link: https://www.microsoft.com/en-us/learning/course.aspx?cid=10961
+            image: /assets/img/services/powershell.png
+          - link: https://www.microsoft.com/en-in/learning/azure-training.aspx
+            image: /assets/img/services/azure.png
+          - link: https://www.microsoft.com/en-in/learning/office365-training.aspx
+            image: /assets/img/services/offi.png
+          - link: https://www.microsoft.com/en-in/learning/windows-server-training.aspx
+            image: /assets/img/services/windows-Server.png
+          - link: https://www.microsoft.com/en-in/learning/lync-server-training.aspx
+            image: /assets/img/services/L-lofo.png

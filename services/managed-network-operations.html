@@ -2,4 +2,27 @@
 layout: page
 permalink: /services/managed-network-operations
 ---
+{% assign pgtxt = site.data.services.managed-network-operations %}
+{% include pageheader.html title=pgtxt.title desc=pgtxt.desc header-image=pgtxt.header-image   %}
+
+<div class="container">
+	<div class="row">
+	<h2>{{ pgtxt.section-one.title }}</h2>
+			{{ pgtxt.section-one.body | markdownify }}
+	</div>
+	<div class="row text-center">
+		{% for item in pgtxt.section-one.image-list %}
+		<div class="col">
+		<img class="img-fluid" src="{{ item.image }}">
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
+{% for section in pgtxt.section-list %}
+<div class="container">
+	<h2>{{ section.title }}</h2>
+			{{ section.body | markdownify }}
+</div>
+{% endfor %}
 

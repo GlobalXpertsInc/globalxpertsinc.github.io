@@ -33,6 +33,10 @@ $contact-image: "{{ site.data.style.contact-image }}";
 @import "layout/footer.scss";
 
 
+.counter-number {
+	font: 800 40px sans-serif;
+	color: #0066bf;
+}
 
 /*======================================
 =            8. BTN BACK TO TOP        =

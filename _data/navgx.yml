@@ -33,12 +33,35 @@ nav:
          url: /services/field-engineering-and-coverage
 
   - title: "Industries"
-    url: /industries
+    dropdown:
+        - title: Education
+          url: /industries/education
+        - title: Energy
+          url: /industries/energy
+        - title: Financial
+          url: /industries/financial
+        - title: Healthcare
+          url: /industries/healthcare
+        - title: Media & Entertainment
+          url: /industries/media-entertainment
+        - title: Retail
+          url: /industries/retail
+        - title: Service Providers
+          url: /industries/service-providers
+        - title: Government
+          url: /industries/government
 
   - title: "Company"
-    url: /company
-
-  - title: "Location"
-    section: location
-    mainsection: /#location
-
+    dropdown:
+        - title: About Us
+          url: /company/about-us
+        - title: Careers
+          url: /company/careers
+        - title: Community Outreach
+          url: /company/community-outreach
+        - title: Strategic Partners
+          url: /company/strategic-partners
+        - title: Contact Us
+          url: /company/contact-us
+  - title: Contact Us
+    url: /#contact-us

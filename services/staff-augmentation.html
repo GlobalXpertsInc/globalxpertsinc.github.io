@@ -2,4 +2,11 @@
 layout: page
 permalink: /services/staff-augmentation
 ---
+{% assign pgtxt = site.data.services.staff-augmentation %}
+{% include pageheader.html title=pgtxt.title desc=pgtxt.desc header-image=pgtxt.header-image   %}
+
+<div class="container">
+	<h2>{{ pgtxt.section-one.title }}</h2>
+			{{ pgtxt.section-one.body | markdownify }}
+</div>
 

@@ -2,4 +2,13 @@
 layout: page
 permalink: /services/cloud-and-data-center-migration
 ---
+{% assign pgtxt = site.data.services.cloud-and-data-center-migration %}
+{% include pageheader.html title=pgtxt.title desc=pgtxt.desc header-image=pgtxt.header-image   %}
+
+{% for section in pgtxt.section-list %}
+<div class="container">
+	<h2>{{ section.title }}</h2>
+			{{ section.body | markdownify }}
+</div>
+{% endfor %}
 

@@ -2,4 +2,11 @@
 layout: page
 permalink: /services/network-consulting
 ---
+{% assign pgtxt = site.data.services.network-consulting %}
+{% include pageheader.html title=pgtxt.title desc=pgtxt.desc header-image=pgtxt.header-image   %}
+
+<div class="container">
+		{{ pgtxt.section-one.body | markdownify }}
+</div>
+
 
