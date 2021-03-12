@@ -25,6 +25,14 @@
             </li>
 			{% endfor %}
           </ul>
+					<div class="empty-space" style="height:20px; "></div>
+
+					<div class="">
+						<span style="font-weight: 900;">{{ site.data.contact.footer.middle.additional.title }}</span><br>
+						{% for i in site.data.contact.footer.middle.additional.list %}
+						<span>{{ i.cert }}</span><br>
+						{% endfor %}
+					</div>
         </div>
 
 		<div class="col-md-4">
@@ -35,11 +43,17 @@
       <div class="item">
 			   <div class="contact-info">
 					 <div class="text">
-				   <i class="{{ info.icon }}"></i>
+				   <i class="{{ info.icon }}" style="padding-right:10px;"></i>
 					 {{ info.value }}</div>
 					 </div>
 			</div>
 			{% endfor %}
+					<div class="empty-space" style="height:20px; "></div>
+					{% for i in site.data.contact.footer.right.additional.list %}
+					<span>{{ i.item }}</span><br>
+					{% endfor %}
+
+
 		</div>
 	</div>
 	</div>

@@ -1,61 +1,41 @@
-title: GlobalXperts
-desc:
-header-image:
+title: About GlobalXperts
+desc: The core of what we do here at GlobalXperts is focused on our clients’ goals.
+header-image: /assets/img/company/PROFESSIONAL-SERVICES-1200x500.jpg
 section-one:
-section-two: |+
-                -- Company
-                # About Us
-                ## About GlobalXperts
-                The core of what we do here at GlobalXperts is focused on our clients’ goals.
-
+        title: Company
+        body: |+
                 We run alongside our clients to accomplish what ever goals they have set before them to run their businesses successfully. By providing network management and technical services that are timely, credible, and reliable, we make it our priority to deliver the best results and exceed client expectations.
 
-
-                ## How Do We Accomplish This?
+section-two:
+        title: How Do We Accomplish This?
+        image: /assets/img/company/about-bg1-showcase.png
+        body: |+
                 We do this by providing robust focus on managed services support and professional services for advanced Cisco solutions. Our focus is on Cisco’s PBM (Plan, Build, Manage) life cycle, and while each phase of the service delivery model is strategically designed to build upon the previous phase, GlobalXperts technical staff has been successfully utilized by our clients for any or all phases.
 
-                ### TESTIMONIALS
-                ## Key Resources
 
-                ## GX Team
+section-three:
+        title: Key Resources
+        desc: TESTIMONIALS
+        list:
+          - title: GX Team
+            body: |+
                 Diverse, Driven and Innovative.
 
-                We believe our greatest resource is our employees which comprise a pool of highly skilled engineers at our RNOC.
+                **We believe our greatest resource is our employees which comprise a pool of highly skilled engineers at our RNOC.**
 
-                The skillset of our engineers will vary based on their solutions focus and their technical qualifications and certification levels. We have engineers with certifications such as Cisco’s CCIE, CIPT, CCSP, CISSP, CQFS, CQVS and similar certifications with VMware, Avaya, Microsoft and others.
+                The skillset of our engineers will vary based on their solutions focus and their technical qualifications and certification levels. We have engineers with certifications such as **Cisco’s CCIE, CIPT, CCSP, CISSP, CQFS, CQVS** and similar certifications with VMware, Avaya, Microsoft and others.
 
                 The GlobalXperts team consists of experienced professionals drawn from the most successful communication companies in the world. Our technicians have proven track records developed from experience at various Technical Assistance Centers (TAC) on complex Issues related to Cisco’s enterprise communications solutions and many others. Our engineers have the technical skills and experience to monitor, manage and remediate problems across very complex networks employing collaboration, data center, security, social, mobility and cloud computing solutions.
-
-                ## RNOC
+          - title: RNOC
+            body: |+
                 The technicians and engineers at our remote network operations center (RNOC) have a deep understanding of internetworking and how data, voice and video collaboration interact within the converged network platform which includes Cisco advanced solutions.
 
-                GlobalXperts RNOC is staffed with over 50 experienced engineers with multi-vendor credentials and the necessary tools to manage small, medium and large enterprise networks.
+                GlobalXperts RNOC is staffed with over 50 experienced engineers with **multi-vendor** credentials and the necessary tools to manage small, medium and large enterprise networks.
 
                 Based on an engineer’s certifications, skillset, education, training & experience, our RNOC staff is comprised of Level 1, Level 2 and Level 3 engineers. Typically, Level 1 engineers perform Help Desk & Monitoring services and Level 2 and Level 3 engineers perform advanced engineering, troubleshooting & resolution support functions.
+          - title: Global Presence
+            body: |+
+                We offer exceptional managed IT infrastructure services, professional and staffing services to SMB and enterprise level companies, system integrators and to the public sector on a worldwide basis. With access to over **2000 technical resources in more than 125 countries and over 600 cities**, GlobalXperts has executed projects on four continents.
 
-                ### Global Presence
-                We offer exceptional managed IT infrastructure services, professional and staffing services to SMB and enterprise level companies, system integrators and to the public sector on a worldwide basis. With access to over 2000 technical resources in more than 125 countries and over 600 cities, GlobalXperts has executed projects on four continents.
 
-                ----
-
-                # Careers
-                ## Position: Project Manager (PM) and Bids & Proposal (B&P) Coordinator
-                Job Summary: The candidate for this position will assume the lead for developing proposals for bids submitted and for project management during proposal evaluation and for post award project execution.
-
-                ## Work Environment & Solutions:
-                This is a small business so the successful candidate must be self-sufficient not only with regards to PM and B&P but also with the of type bids we develop and with the market we sell to. Our target market is the Federal Government, both Defense and Civil agencies. Some private sector work will also be bid. The technology area we pursue is information technology (IT) with an emphasis on Cisco voice & data advanced solutions. Candidate will be supported by a technical staff in structuring IT solutions for the bids.
-
-                ## Security
-                A strong understanding of MS Office, IP communications and tools such as FTP, Dropbox etc. is needed to communicate effectively between locations. Good written and oral communications skills are necessary to deal with everything from proposal development to participating in oral proposals. Some travel will be required.
-
-                ## Virtualization
-                All aspects of IT will be pursued such as subcontracting to a prime contractor on large programs; proposing bids for turnkey projects (Computer Networking, Wireless, Voice solutions, IT Operations & Maintenance etc.) and staffing projects that involves finding and supplying technical resources.
-
-                Candidate must have a general understanding of IP-based components such as routers, switches, servers, gateways, firewalls etc. used in voice, data & video enterprise networks. Candidate must have an understanding of PM disciplines including Government proposal process, spreadsheet/PM software, complex pricing models, work breakdown structures, scheduling ETC associated with bidding and managing projects. It would be an added benefit to have an understanding of the ERATE program and developing proposals for ERATE projects.
-
-                Location: Raleigh-Triangle area. Part time or full time Compensation: Variable Experience, skillset and other factors.
-
-                Email us at: info@globalxperts.net to learn more.
-
-                ----
 

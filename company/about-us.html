@@ -10,3 +10,35 @@ permalink: /company/about-us
 			{{ pgtxt.section-one.body | markdownify }}
 </div>
 
+<div class="bg-light" style="padding-top: 20px; padding-bottom: 20px;">
+	<div class="container">
+	<div class="row">
+		<div class="col">
+			<img class="img-fluid" src="{{ pgtxt.section-two.image }}">
+		</div>
+		<div class="col">
+	<h2>{{ pgtxt.section-two.title }}</h2>
+			{{ pgtxt.section-two.body | markdownify }}
+		</div>
+	</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row text-center">
+		<div class="col">
+			<span style="color:blue; padding-top: 20px; font-weight:700;">{{ pgtxt.section-three.desc | markdownify }}</span>
+			<span><h2>{{ pgtxt.section-three.title }}</h2></span>
+			<div class="empty-space" style="height: 40px;">
+			</div>
+		</div>
+	</div>
+<div class="row">
+	{% for item in pgtxt.section-three.list %}
+	<div class="col">
+		<h2>{{ item.title }}</h2>
+			{{ item.body | markdownify }}
+	</div>
+	{% endfor %}
+</div>
+</div>

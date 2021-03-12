@@ -1,57 +1,27 @@
 title: Careers
-desc:
-header-image:
-section-one:
-section-two: |+
-                -- Industies
-                # Education
-                ## Empowering and supporting the leaders of tomorrow
-                Technology and Education provide wonderful gateways for our children to succeed and improve our world. Here at GlobalXperts we take pride in supporting Educational facilities with their technological needs. Our children are our future, and by providing innovative solutions that expand young minds along with accurate service support we can bridge the gap between technology and education.
+desc: Available Positions
+header-image: /assets/img/company/Career-1200x300.jpg
+section-list:
+        - title: "Position: Project Manager (PM) and Bids & Proposal (B&P) Coordinator"
+          body: |+
+                Job Summary: The candidate for this position will assume the lead for developing proposals for bids submitted and for project management during proposal evaluation and for post award project execution.
+        - title: Work Environment & Solutions
+          body: |+
+                This is a small business so the successful candidate must be self-sufficient not only with regards to PM and B&P but also with the of type bids we develop and with the market we sell to. Our target market is the Federal Government, both Defense and Civil agencies. Some private sector work will also be bid. The technology area we pursue is information technology (IT) with an emphasis on Cisco voice & data advanced solutions. Candidate will be supported by a technical staff in structuring IT solutions for the bids.
+        - title: Security
+          body: |+
+                A strong understanding of MS Office, IP communications and tools such as FTP, Dropbox etc. is needed to communicate effectively between locations. Good written and oral communications skills are necessary to deal with everything from proposal development to participating in oral proposals. Some travel will be required.
+        - title: Virtualization
+          body: |+
+                All aspects of IT will be pursued such as subcontracting to a prime contractor on large programs; proposing bids for turnkey projects (Computer Networking, Wireless, Voice solutions, IT Operations & Maintenance etc.) and staffing projects that involves finding and supplying technical resources.
 
-                ----
-
-                # Energy
-                ## The power to create
-                GlobalXperts and thousands of other companies have achieved much thanks to our energy companies. Whether it is powering a city, a manufacturing facility, air and land travel or the family vacation to the beach, our entire way of life would not be possible without the endless supply of energy! That is why we work tirelessly to provide our energy customers the best IT support services we can to help energy companies continue to make life better throughout our world!
-
-                ----
-
-                # Financial
-                ## Accessibility and innovation
-                Being able to have ease of access to our finances is something we all want. Since technology continues to shape our world, financial companies are constantly working hard to keep up. The task is daunting given the looming cybersecurity challenges our financial institutions face and the growing need for faster and more innovative ways to transact business.  Whether those services are derived from bricks and mortar offices, ATM’s, mobile apps or online services, financial companies continue to innovate ways for us to have ease of access to our finances. Adhering to industries best practices, GlobalXperts provides the advanced IT environment and support services that financial companies require.
-
-                ----
-
-                # Healthcare
-                ## The value of life
-                Healthcare providers work tirelessly to provide superior health care for our loved ones and ourselves. Whether it is a health care company, a hospital, an outpatient clinic or a pharmaceutical business, GlobalXperts understands the importance and value that these organizationsplay in our lives and the unique IT infrastructure needed to deliver their services. Keeping up with so many patients and communicating information across the world is so sensitive that healthcare companies need someone they can rely on. Healthcare industries are one of our most important clients and based on their continuing need for IT services support we know we are helping make a difference in the lives of many.
-
-                ----
-
-                # Media & Entertainment
-                ## Engaging our world
-                Media and entertainment industries continue to find creative ways to reach people with fresh, rich entertainment content. Using technology as their main tool for innovation, GlobalXperts knows that keeping up with IT needs is a must! We provide high performance IT solutionsfor the media & entertainment industries that addresses enterprise, network, cloud, wireless, mobile devices and social media. By keeping up with fast emerging new technologies, GlobalXperts is the go-to company for reliable IT solutions that will get your company back on track!
-
-                ----
-
-                # Retail
-                ## The more the better
-                Retail companies have taken off with the help of new technology that continues to advance and improve with time. As society moves forward, so does the need for retail companies to keep up and stay ahead of the competition. By finding new ways to reach customers, retail companies need someone with the expertise to support them for their IT infrastructure needs. GlobalXperts uses a best of breed approach to ensurethat we deliver the most innovative and productive IT solutions available to keep retailers on top of their game!
-
-                ----
-
-                # Service Provider
-                ## Partnering for success
-                The goal of any information technology solution provider is to deliver exceptional service to their customers.  Growing their business and finding more efficient ways of delivering services are key in succeeding as a service provider company. GlobalXperts provides the expertise to enable your company to do just that.  We understand that there are times when it makes sense to partner on a project rollout or helping with managed services support. With GlobalXpertshelping you with the areas giving you the most pain, your company resources can be directed to what is most important such as adding new accounts growing revenue.
-
-                ----
-
-                # Government
-                ## Making IT simple and bringing technology to the people
-                The Government IT procurementprocess can be very precise and complex if not familiar with this market. GlobalXpertsunderstands the process starting with pre-bid meetings, developing proposals during the solicitation phase, the specialized contracting approaches the government uses, past performance requirements, evaluation criteria to contract award and implementation.Our staff is ready to help you with all facets of your IT enterprise and networkrequirements including Cisco collaboration, data center, cloud, wireless and mobility applications. Whatever the need, our engineers are ready to listen and provide expert planning and design support for your next initiative.
-
-                GlobalXperts is a Small, Woman-Owned, 8a Business concern that is focused on planning, designing, implementing and managing IT networks on a worldwide basis.Whether the project is with the federal government, state or local government, we take care to not only develop the right solution design but to also keep an eye on the bottom line. We have been implementing industry leading IT solutions for streamlining communications operations since 2005 for mostly the commercial sector. Many of the goals of our private sector business customers apply to our government customers. For instance, all stakeholders want IT solutions that are highly available, productive, scalable and secure at a fair price.
-
-                Government agencies benefit from doing business with a company that is familiar with their process and delivers on their contractual promises. That’s GlobalXperts.
+                Candidate must have a general understanding of IP-based components such as routers, switches, servers, gateways, firewalls etc. used in voice, data & video enterprise networks. Candidate must have an understanding of PM disciplines including Government proposal process, spreadsheet/PM software, complex pricing models, work breakdown structures, scheduling ETC associated with bidding and managing projects. It would be an added benefit to have an understanding of the ERATE program and developing proposals for ERATE projects.
 
 
+section-two-list:
+        - title: Location
+          body: |+
+                  Raleigh-Triangle area. Part time or full time Compensation: Variable Experience, skillset and other factors.
+        - title: Email us at
+          body: |+
+                  info@globalxperts.net to learn more.

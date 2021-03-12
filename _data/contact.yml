@@ -3,7 +3,8 @@ footer:
     left:
         title:
         logo: \assets\img\global-experts-logo.png
-        text: GlobalXperts is a network communications support organization with a business focus of providing end users and solutions providers, with support services based on industry best practices.
+        text: |+
+                GlobalXperts, a Women Owned 8(a) Small Business, is a network communications support organization with a business focus of providing end users and solutions providers, with support services based on industry best practices.
     middle:
         title: Follow GlobalXperts
         social:
@@ -11,7 +12,15 @@ footer:
              url: "https://twitter.com/globalxpertsinc"
            - icon: "fab fa-linkedin-in"
              url: "https://www.linkedin.com/company/globalxperts-inc-"
-        text:
+        additional:
+                title: Certification
+                list:
+                        - cert: ISO 9001-2001
+                        - cert: ISO 27001
+                        - cert: ITIL-vi3
+                        - cert: 8(a), WOSB, EDWOSB
+
+
     right:
         title: Contact Us
         contact-info:
@@ -24,3 +33,9 @@ footer:
             - type: email
               icon: "fas fa-envelope"
               value: info@globalxperts.net
+        additional:
+                list:
+                        - item: "DUNS: 614259849"
+                        - item: "Cage Code: 6YGM8"
+                        - item: "NAICS: 541512,541690,561320,541330,..."
+

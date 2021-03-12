@@ -10,3 +10,37 @@ permalink: /company/contact-us
 			{{ pgtxt.section-one.body | markdownify }}
 </div>
 
+
+{% assign contacts = pgtxt.section-list %}
+<div class="container">
+<div class="row">
+	{% for info in contacts %}
+	<div class="col-md-4">
+
+		 <div class="contact-info">
+			 <h5>{{ info.title }}</h5>
+
+			 <div><i class="fa fa-home" style="padding-right: 10px;"></i>{{ info.address1 }}</div>
+			 {% if info.address2 %}
+			 <div><i class="fa fa-globe" style="padding-right: 10px;"></i>{{ info.address2 }}</div>
+			 {% endif %}
+
+			 {% if info.numbers %}
+			 {% for num in info.numbers %}
+			 <div><i class="fa fa-phone" style="padding-right: 10px;"></i>{{ num.number }}</div>
+			 {% endfor %}
+			 {% endif %}
+
+			 {% if info.email-addresses %}
+			 {% for e in info.email-addresses %}
+			 <div><i class="fa fa-envelope" style="padding-right: 10px;"></i>{{ e.email }}</div>
+			 {% endfor %}
+			 {% endif %}
+
+		 </div>
+		<div class="empty-space" style="height:40px;">
+		</div>
+	</div>
+	{% endfor %}
+</div>
+</div>

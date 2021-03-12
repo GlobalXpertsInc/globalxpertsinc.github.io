@@ -5,8 +5,22 @@ permalink: /company/careers
 {% assign pgtxt = site.data.company.careers %}
 {% include pageheader.html title=pgtxt.title desc=pgtxt.desc header-image=pgtxt.header-image   %}
 
+{% for item in pgtxt.section-list %}
 <div class="container">
-	<h2>{{ pgtxt.section-one.title }}</h2>
-			{{ pgtxt.section-one.body | markdownify }}
+	<h2>{{ item.title }}</h2>
+			{{ item.body | markdownify }}
+</div>
+{% endfor %}
+
+
+<div class="container">
+	<div class="row">
+  {% for item in pgtxt.section-two-list %}
+		<div class="col">
+	<h5>{{ item.title }}</h5>
+			{{ item.body | markdownify }}
+		</div>
+	{% endfor %}
+	</div>
 </div>
 

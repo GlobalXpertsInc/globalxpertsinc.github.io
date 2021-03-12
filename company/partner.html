@@ -10,3 +10,12 @@ permalink: /company/strategic-partners
 			{{ pgtxt.section-one.body | markdownify }}
 </div>
 
+<div class="container">
+<div class="row">
+	{% for img in pgtxt.partner-images-list %}
+	<div class="col">
+		<img alt="{{ img.alt }}" src="{{ img.image }}">
+	</div>
+	{% endfor %}
+</div>
+</div>
