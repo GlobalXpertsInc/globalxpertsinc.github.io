@@ -30,13 +30,13 @@ solutions:
     list:
         - title: "Network Support"
           desc: "Nowadays virtually all forward looking companies have moved to or are planning to move to an IP-based network platform and use high speed internet on a daily basis."
-          url: "http://batechnology.in/global/network-consulting/"
+          url: "/services/network-consulting"
         - title: "Professional Services"
           desc: "Our engineers can successfully manage projects of varying scope, from a small-scale software application to a large enterprise national rollout."
-          url: "http://batechnology.in/global/professional-services/"
+          url: "/services/professional-services"
         - title: "Technology Capabilities"
           desc: "GlobalXperts provides world wide implementation and on site support capabilities across multiple continents for its clients and partners."
-          url: "http://batechnology.in/global/key-products-and-partners/"
+          url: "/company/strategic-partners"
 
 
 partners:
